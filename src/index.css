@@ -1,0 +1,113 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+}
+.pone{
+  position: absolute;
+  top: 5%;
+  left: 40%;
+}
+.btn{
+ 
+  position: absolute;
+  top: 40%;
+  z-index: 1000;
+  padding-block: 7px;
+  border-radius: 5px;
+  border: none;
+  background: gray;
+  color: white;
+  font-family: Poppin ;
+  padding-inline: 8px;
+  left: 25%;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+.btn:hover{
+  background: transparent;
+  color: gray;
+  border: 1px gray solid;
+  transform: translateX(0.5);
+}
+.btnd{
+ 
+  position: absolute;
+  top: 40%;
+  z-index: 1000;
+  padding-block: 7px;
+  border-radius: 5px;
+  border: none;
+  background: gray;
+  color: white;
+  font-family: Poppin ;
+  padding-inline: 8px;
+  right: 25%;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+.btnd:hover{
+  background: transparent;
+  color: gray;
+  border: 1px gray solid;
+  transform: translateX(0.5);
+}
+.btnb{
+ 
+  position: absolute;
+  top: 5%;
+  z-index: 1000;
+  padding-block: 7px;
+  border-radius: 5px;
+  border: none;
+  background: gray;
+  color: white;
+  font-family: Poppin ;
+  padding-inline: 8px;
+  left: 47%;
+  font-weight: bold;
+  transition: 0.5s ease-in-out;
+}
+.btnb:hover{
+  background: transparent;
+  color: gray;
+  border: 1px gray solid;
+  transform: translateX(0.5);
+}
+.head{
+  padding-inline: 50px;
+  padding-block: 11px;
+ position: absolute;
+ z-index: 1000;
+ top: 0%;
+  width: 90%;
+  background-color: transparent;
+}
+.lop{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background: black;
+  color: white;
+  padding-inline: 15px;
+  padding-block: 2px;
+  border-radius: 15px;
+}
+.back{
+  background-color: black;
+  color: white;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  border-radius: 30%;
+  padding: 20px;
+
+}
+body {
+  margin: 0;
+}
